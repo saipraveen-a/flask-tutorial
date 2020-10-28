@@ -5,7 +5,7 @@
 on:
   push:
     branches:
-      - test-branch-1
+      - master
 
 name: Build and deploy Python app
 

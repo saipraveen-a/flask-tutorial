@@ -40,7 +40,7 @@ jobs:
 
     - uses: azure/appservice-settings@v1
       with:
-        app-name: test-flask-tutorial-master
+        app-name: test-flask-tutorial-test-branch
         general-settings-json: '{"linuxFxVersion": "PYTHON|3.7"}' #'General configuration settings as Key Value pairs'
 
     # deploy web app
